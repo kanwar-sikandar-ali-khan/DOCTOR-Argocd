@@ -15,10 +15,5 @@ spec:
       containers:
         - name: backend
           image: kanwarsaad/doctorbackend:2
-          env:
-            - name: MONGODB_URI
-              value: "mongodb://shop:shop@mongo-service:27017"
-            - name: PORT
-              value: "5000"
           ports:
             - containerPort: 5000
