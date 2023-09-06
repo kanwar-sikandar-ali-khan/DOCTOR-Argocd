@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: kanwarsaad/doctorfrontend:2
+          image: kanwarsaad/doctorfrontend:4
           env:
             - name: REACT_APP_API_URL
               value: "http://backend-service:80"
