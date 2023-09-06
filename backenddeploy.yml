@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: kanwarsaad/doctorbackend:3
+          image: kanwarsaad/doctorbackend:2
           env:
             - name: MONGODB_URI
               value: "mongodb://shop:shop@mongo-service:27017"
